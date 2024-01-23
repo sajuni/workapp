@@ -6,18 +6,13 @@ const log = require("electron-log");
 const chrome = require("selenium-webdriver/chrome");
 const axios = require("axios");
 const AdmZip = require("adm-zip");
-const moment = require("moment");
 const https = require("https");
-
-if (require("electron-squirrel-startup")) {
-  app.quit();
-}
 
 const createWindow = async () => {
   await defaultSetting();
   const mainWindow = new BrowserWindow({
-    width: 500,
-    height: 500,
+    width: 380,
+    height: 255,
     webPreferences: {
       devTools: true,
       preload: path.join(__dirname, "preload.js"),
