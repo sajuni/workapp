@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="x64">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/make/squirrel.windows/x64.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
