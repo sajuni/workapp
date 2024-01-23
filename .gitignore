@@ -91,5 +91,10 @@ typings/
 # Electron-Forge
 out/
 
+<<<<<<< HEAD
 .idea/
 .vscode/
+=======
+.idea
+.vscode
+>>>>>>> 6596535 (이그노어 수정)
